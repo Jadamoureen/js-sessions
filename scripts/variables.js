@@ -108,3 +108,21 @@ console.log(typeof is_function_2);
 let is_function_3 = function() {}
 
 console.log(typeof is_function_3)
+
+//conversion
+
+let number1 = "100"
+
+let number2 = 50
+
+console.log(number1 > number2) //False
+
+console.log(typeof number1) //String
+
+console.log(typeof number2) //Number
+
+console.log(typeof + number1) //converted into a number
+
+console.log(typeof parseInt(number1)) //converted into a number
+
+console.log(typeof Number(number1)) //Number.most recommended
