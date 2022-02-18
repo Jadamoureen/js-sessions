@@ -1,0 +1,1 @@
+alert("Hello World from the app.js file");
